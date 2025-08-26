@@ -1,0 +1,60 @@
+{
+  "name": "space-kraken",
+  "displayName": "Space Kraken",
+  "description": "A dark cosmic theme with syntax highlighting optimized for OLED displays and extended coding sessions.",
+  "version": "2025.8.26",
+  "publisher": "chanware",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cosmic",
+    "space",
+    "kraken",
+    "purple",
+    "soft",
+    "oled",
+    "syntax",
+    "highlighting",
+    "eye-strain"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#112128",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chanware/space-kraken-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chanware/space-kraken-theme/issues"
+  },
+  "homepage": "https://github.com/chanware/space-kraken-theme#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Channing Brown",
+    "email": "cbrown@deafbits.org"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Space Kraken",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-kraken-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}
