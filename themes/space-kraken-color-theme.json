@@ -7,18 +7,18 @@
 		
 		// Activity Bar - Kraken's domain
 		"activityBar.background": "#152025",
-		"activityBar.foreground": "#607d8b",
+		"activityBar.foreground": "#6e8e9f",
 		"activityBarBadge.background": "#82aaff",
 		
 		// Side Bar - Navigation through the void
 		"sideBar.background": "#152025",
-		"sideBar.foreground": "#607d8b",
+		"sideBar.foreground": "#6e8e9f",
 		"sideBarTitle.foreground": "#cdd3de",
 		"sideBarSectionHeader.background": "#1e272c",
 		
 		// Status Bar - Mission control
 		"statusBar.background": "#1e272c",
-		"statusBar.foreground": "#607d8b",
+		"statusBar.foreground": "#6e8e9f",
 		"statusBar.noFolderBackground": "#1e272c",
 		"statusBar.debuggingBackground": "#2a4a5a",
 		"statusBarItem.hoverBackground": "#2e3c43",
@@ -57,14 +57,14 @@
 		"tab.activeBackground": "#293c46",
 		"tab.activeForeground": "#cdd3de",
 		"tab.inactiveBackground": "#152025",
-		"tab.inactiveForeground": "#607d8b",
+		"tab.inactiveForeground": "#6e8e9f",
 		"tab.border": "#1a2d34",
 		
 		// Panel - Control center
 		"panel.background": "#152025",
 		"panel.border": "#22343d",
 		"panelTitle.activeForeground": "#cdd3de",
-		"panelTitle.inactiveForeground": "#607d8b",
+		"panelTitle.inactiveForeground": "#6e8e9f",
 		
 		// Terminal - Communication portal
 		"terminal.background": "#152025",

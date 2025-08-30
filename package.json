@@ -2,7 +2,7 @@
   "name": "space-kraken",
   "displayName": "Space Kraken",
   "description": "A dark cosmic theme with syntax highlighting optimized for OLED displays and extended coding sessions.",
-  "version": "2025.8.26",
+  "version": "2025.8.30",
   "publisher": "chanware",
   "engines": {
     "vscode": "^1.103.0"

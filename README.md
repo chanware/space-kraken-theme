@@ -4,35 +4,29 @@
 
 **Unleash the cosmic tentacles of perfectly balanced syntax highlighting.**
 
-A dark theme that wraps your code in the depths of space, where bioluminescent syntax elements float like stars in the void. Designed for developers who demand both aesthetic beauty and functional excellence.
+A dark theme that wraps your code in the depths of space with a comfortable palette of colors. Designed for developers who demand both aesthetic beauty and functional excellence.
 
 *(Space Kraken was created by an OLED screen user who doesn't always want to use 100% black backgrounds.)*
 
 ---
 
-## ✨ Why Space Kraken?
-
-**🌌 Cosmic Coding Experience**  
-Immerse yourself in a carefully crafted space environment where every color serves a purpose.
-
-**👁️ OLED Friendly**  
-Deep space backgrounds (#112128) minimize OLED color contrast intensity as the semi-vibrant accents shine without being too overwhelming.
-
-**🎯 Precision Syntax Highlighting**  
-Every token type has its place in the cosmic hierarchy - from stellar function calls to nebular comments.
-
----
-
 ## 🚀 Features
 
-### **Cosmic Color Palette**
+### 🌌 Cosmic Coding Experience
+Immerse yourself in a carefully crafted space environment where every color serves a purpose.
+Every token type has its color in the cosmic hierarchy - from stellar function calls to nebular comments.
+
+### 👁️ OLED Friendly  
+Deep space backgrounds (#112128) minimize OLED color contrast intensity as the semi-vibrant accents shine without being too overwhelming.
+
+### Cosmic Color Palette
 
 - Curated colors that glow without intense contrast
 - Intuitive file explorer and tab theming
 - Selection highlights that flow naturally through your code
 
 
-### **Language Support**
+### Language Support
 
 Perfect highlighting for all major languages including:
 
