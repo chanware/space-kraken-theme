@@ -1,104 +1,124 @@
 {
 	"name": "Space Kraken",
 	"colors": {
-		// Core Editor - Deep space backdrop with stellar text
+		// === EDITOR CORE ===
+		// The main coding area where you write your masterpieces
 		"editor.background": "#112128",
 		"editor.foreground": "#cdd3de",
 		
-		// Activity Bar - Kraken's domain
+		// === ACTIVITY BAR ===
+		// The skinny vertical bar on the far left with icons (Explorer, Search, etc.)
 		"activityBar.background": "#152025",
 		"activityBar.foreground": "#6e8e9f",
-		"activityBarBadge.background": "#82aaff",
+		"activityBarBadge.background": "#82aaff", // Those little notification circles on icons
 		
-		// Side Bar - Navigation through the void
+		// === SIDE BAR ===
+		// The file explorer and other panels that slide out from the left
 		"sideBar.background": "#152025",
 		"sideBar.foreground": "#6e8e9f",
-		"sideBarTitle.foreground": "#cdd3de",
-		"sideBarSectionHeader.background": "#1e272c",
+		"sideBarTitle.foreground": "#cdd3de", // "EXPLORER", "SEARCH", etc. headers
+		"sideBarSectionHeader.background": "#1e272c", // Background for collapsible sections
 		
-		// Status Bar - Mission control
+		// === STATUS BAR ===
+		// The bottom strip showing line numbers, language, Git branch, etc.
 		"statusBar.background": "#1e272c",
 		"statusBar.foreground": "#6e8e9f",
-		"statusBar.noFolderBackground": "#1e272c",
-		"statusBar.debuggingBackground": "#2a4a5a",
-		"statusBarItem.hoverBackground": "#2e3c43",
-		"statusBarItem.activeBackground": "#31424d",
-		"statusBarItem.prominentBackground": "#3d5a6b",
-		"statusBarItem.prominentHoverBackground": "#4a6b7d",
+		"statusBar.noFolderBackground": "#1e272c", // When no folder is open
+		"statusBar.debuggingBackground": "#2a4a5a", // When debugger is active
+		"statusBarItem.hoverBackground": "#2e3c43", // When you hover over status items
+		"statusBarItem.activeBackground": "#31424d", // When status item is clicked
+		"statusBarItem.prominentBackground": "#3d5a6b", // Important items (like errors)
+		"statusBarItem.prominentHoverBackground": "#4a6b7d", // Hovering over important items
 		
-		// Title Bar - Command bridge
+		// === TITLE BAR ===
+		// The very top bar with window controls and menu (on some platforms)
 		"titleBar.activeBackground": "#1e272c",
 		"titleBar.activeForeground": "#cdd3de",
-		"titleBar.inactiveBackground": "#152025",
+		"titleBar.inactiveBackground": "#152025", // When VS Code window isn't focused
 		"titleBar.inactiveForeground": "#425b67",
 		
-		// Editor Selection & Highlights - Kraken's tentacles
-		"editor.selectionBackground": "#31424d",
-		"editor.lineHighlightBackground": "#0d1a21",
-		"editor.findMatchBackground": "#29353f",
-		"editor.findMatchHighlightBackground": "#252f3b",
-		"editor.wordHighlightBackground": "#252f3b",
-		"editor.wordHighlightStrongBackground": "#31424d",
+		// === EDITOR SELECTION & HIGHLIGHTS ===
+		// All the ways text gets highlighted in the editor
+		"editor.selectionBackground": "#31424d", // When you select text with mouse/keyboard
+		"editor.lineHighlightBackground": "#0d1a21", // The line your cursor is on
+		"editor.findMatchBackground": "#29353f", // The current search result
+		"editor.findMatchHighlightBackground": "#252f3b", // Other search results
+		"editor.wordHighlightBackground": "#252f3b", // Same word as cursor (read access)
+		"editor.wordHighlightStrongBackground": "#31424d", // Same word as cursor (write access)
 		
-		// Cursor - Bioluminescent marker
+		// === CURSOR ===
+		// That blinking line that shows where you're typing
 		"editorCursor.foreground": "#b6c4ff",
 		
-		// Line Numbers - Coordinate system
-		"editorLineNumber.foreground": "#364555",
-		"editorLineNumber.activeForeground": "#607d86",
+		// === LINE NUMBERS ===
+		// The numbers on the left side of each line
+		"editorLineNumber.foreground": "#364555", // Regular line numbers
+		"editorLineNumber.activeForeground": "#607d86", // Current line number
 		
-		// Gutter - Version control in the abyss
+		// === GUTTER ===
+		// The space between line numbers and your code (shows Git changes, breakpoints)
 		"editorGutter.background": "#112128",
-		"editorGutter.addedBackground": "#174e26",
-		"editorGutter.deletedBackground": "#80202b",
-		"editorGutter.modifiedBackground": "#5a3625",
+		"editorGutter.addedBackground": "#174e26", // Green bar for new lines
+		"editorGutter.deletedBackground": "#80202b", // Red triangle for deleted lines
+		"editorGutter.modifiedBackground": "#5a3625", // Orange bar for modified lines
 		
-		// Tabs - File constellation
-		"tab.activeBackground": "#293c46",
+		// === TABS ===
+		// The file tabs across the top of the editor
+		"tab.activeBackground": "#293c46", // Currently open file tab
 		"tab.activeForeground": "#cdd3de",
-		"tab.inactiveBackground": "#152025",
+		"tab.inactiveBackground": "#152025", // Background tabs
 		"tab.inactiveForeground": "#6e8e9f",
-		"tab.border": "#1a2d34",
+		"tab.border": "#1a2d34", // Lines between tabs
 		
-		// Panel - Control center
+		// === PANEL ===
+		// Bottom panel area (Terminal, Problems, Output, Debug Console)
 		"panel.background": "#152025",
-		"panel.border": "#22343d",
-		"panelTitle.activeForeground": "#cdd3de",
-		"panelTitle.inactiveForeground": "#6e8e9f",
+		"panel.border": "#22343d", // Line separating panel from editor
+		"panelTitle.activeForeground": "#cdd3de", // Active panel tab (like "TERMINAL")
+		"panelTitle.inactiveForeground": "#6e8e9f", // Inactive panel tabs
 		
-		// Terminal - Communication portal
+		// === TERMINAL ===
+		// The integrated terminal colors
 		"terminal.background": "#152025",
 		"terminal.foreground": "#c3cee3",
 		
-		// Scrollbar - Navigation aids
-		"scrollbar.shadow": "#22343b00",
-		"scrollbarSlider.background": "#5a7380d4",
-		"scrollbarSlider.hoverBackground": "#6c8795d4",
-		"scrollbarSlider.activeBackground": "#6c8795d4",
+		// === SCROLLBARS ===
+		// Those things you drag to scroll around
+		"scrollbar.shadow": "#22343b00", // Shadow cast by scrollbars (transparent here)
+		"scrollbarSlider.background": "#5a7380d4", // The draggable part (with transparency)
+		"scrollbarSlider.hoverBackground": "#6c8795d4", // When you hover over it
+		"scrollbarSlider.activeBackground": "#6c8795d4", // When you're dragging it
 		
-		// Borders & Separators - Structural elements
-		"border": "#22343d",
-		"separator": "#3b4950",
+		// === BORDERS & SEPARATORS ===
+		// Lines that separate different UI sections
+		"border": "#22343d", // General border color
+		"separator": "#3b4950", // Lines that separate sections
 		
-		// Notifications - Incoming transmissions
+		// === NOTIFICATIONS ===
+		// Those popup messages in the bottom right
 		"notification.background": "#3d1a11",
 		
-		// Input - Data entry fields
+		// === INPUT FIELDS ===
+		// Text boxes where you type (search, settings, etc.)
 		"input.background": "#1f2e38",
 		"input.border": "#22343d",
 		"input.foreground": "#cdd3de",
 		
-		// Button - Action triggers
+		// === BUTTONS ===
+		// Clickable buttons throughout the UI
 		"button.background": "#82aaff",
 		"button.foreground": "#ffffff",
-		"button.hoverBackground": "#85c3f4",
+		"button.hoverBackground": "#85c3f4", // When you hover over buttons
 		
-		// Dropdown - Selection menus
+		// === DROPDOWNS ===
+		// Those menus that drop down when you click something
 		"dropdown.background": "#1f2e38",
 		"dropdown.border": "#22343d",
 		"dropdown.foreground": "#cdd3de"
 	},
 	"tokenColors": [
+		// === COMMENTS ===
+		// All those // and /* */ things you write to explain your code
 		{
 			"name": "Comment",
 			"scope": [
@@ -110,6 +130,9 @@
 				"foreground": "#4d6470"
 			}
 		},
+		
+		// === VARIABLES ===
+		// Regular variables and placeholders in strings
 		{
 			"name": "Variables",
 			"scope": [
@@ -120,6 +143,9 @@
 				"foreground": "#cdd3de"
 			}
 		},
+		
+		// === LOCAL VARIABLES ===
+		// Variables declared inside methods/functions
 		{
 			"name": "Local Variables",
 			"scope": [
@@ -129,6 +155,9 @@
 				"foreground": "#cdd3de"
 			}
 		},
+		
+		// === PARAMETERS ===
+		// Those variables in parentheses when you declare methods
 		{
 			"name": "Parameters",
 			"scope": [
@@ -138,6 +167,9 @@
 				"foreground": "#fb9551"
 			}
 		},
+		
+		// === INSTANCE FIELDS ===
+		// Class-level variables (the ones we just talked about!)
 		{
 			"name": "Instance Fields",
 			"scope": [
@@ -148,6 +180,9 @@
 				"foreground": "#97a0b4"
 			}
 		},
+		
+		// === GLOBAL VARIABLES ===
+		// Variables that exist everywhere in your program
 		{
 			"name": "Global Variables",
 			"scope": [
@@ -157,6 +192,9 @@
 				"foreground": "#e4c16c"
 			}
 		},
+		
+		// === ERRORS ===
+		// When your code is broken and VS Code is mad at you
 		{
 			"name": "Invalid",
 			"scope": [
@@ -167,6 +205,9 @@
 				"foreground": "#ff5370"
 			}
 		},
+		
+		// === KEYWORDS ===
+		// Reserved words like 'public', 'class', 'int', etc.
 		{
 			"name": "Keywords",
 			"scope": [
@@ -178,6 +219,9 @@
 				"foreground": "#dca9dc"
 			}
 		},
+		
+		// === CONTROL KEYWORDS ===
+		// Flow control words like 'if', 'for', 'while', 'return'
 		{
 			"name": "Control Keywords",
 			"scope": [
@@ -188,6 +232,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === OPERATORS & PUNCTUATION ===
+		// All the symbols: +, -, =, {, }, <, >, etc.
 		{
 			"name": "Operators, Punctuation",
 			"scope": [
@@ -207,6 +254,9 @@
 				"foreground": "#66c7c7"
 			}
 		},
+		
+		// === COMMAS ===
+		// Just the comma character ,
 		{
 			"name": "Commas",
 			"scope": [
@@ -216,6 +266,9 @@
 				"foreground": "#89ddff"
 			}
 		},
+		
+		// === DOTS ===
+		// The . character (like in object.property)
 		{
 			"name": "Dots",
 			"scope": [
@@ -225,6 +278,9 @@
 				"foreground": "#89ddff"
 			}
 		},
+		
+		// === SEMICOLONS ===
+		// Those ; that end statements in C#
 		{
 			"name": "Semicolons",
 			"scope": [
@@ -234,6 +290,9 @@
 				"foreground": "#60b3b3"
 			}
 		},
+		
+		// === BRACES, BRACKETS, PARENTHESES ===
+		// {}, [], () - the containers of code
 		{
 			"name": "Braces, Brackets, Parentheses",
 			"scope": [
@@ -245,6 +304,9 @@
 				"foreground": "#66c7c7"
 			}
 		},
+		
+		// === HTML/XML TAGS ===
+		// <div>, <p>, etc. in HTML/XML files
 		{
 			"name": "Tag",
 			"scope": [
@@ -256,6 +318,9 @@
 				"foreground": "#f36e77"
 			}
 		},
+		
+		// === FUNCTION NAMES ===
+		// When you call methods like Console.WriteLine()
 		{
 			"name": "Function Names",
 			"scope": [
@@ -268,6 +333,9 @@
 				"foreground": "#85c3f4"
 			}
 		},
+		
+		// === METHOD CALLS ===
+		// Specifically method calls on objects
 		{
 			"name": "Method Calls",
 			"scope": [
@@ -277,6 +345,9 @@
 				"foreground": "#85c3f4"
 			}
 		},
+		
+		// === STATIC METHODS ===
+		// Methods you call without creating an object first
 		{
 			"name": "Static Methods",
 			"scope": [
@@ -287,6 +358,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === NUMBERS AND CONSTANTS ===
+		// Literal values like 42, true, false, null
 		{
 			"name": "Numbers and Constants",
 			"scope": [
@@ -302,6 +376,9 @@
 				"foreground": "#fb9551"
 			}
 		},
+		
+		// === STRINGS ===
+		// Text in quotes like "Hello World"
 		{
 			"name": "Strings",
 			"scope": [
@@ -315,6 +392,9 @@
 				"foreground": "#99c794"
 			}
 		},
+		
+		// === STRING ESCAPES ===
+		// Special characters in strings like \n, \t, \"
 		{
 			"name": "String Escapes",
 			"scope": [
@@ -324,6 +404,9 @@
 				"foreground": "#85c3f4"
 			}
 		},
+		
+		// === CLASS NAMES ===
+		// Your custom classes and built-in types like String, Int32
 		{
 			"name": "Class Names",
 			"scope": [
@@ -336,6 +419,9 @@
 				"foreground": "#e4c16c"
 			}
 		},
+		
+		// === ABSTRACT CLASSES ===
+		// Classes that can't be instantiated directly
 		{
 			"name": "Abstract Classes",
 			"scope": [
@@ -345,6 +431,9 @@
 				"foreground": "#80cbc4"
 			}
 		},
+		
+		// === INTERFACE NAMES ===
+		// Those contracts that classes implement (IDisposable, etc.)
 		{
 			"name": "Interface Names",
 			"scope": [
@@ -355,6 +444,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === TYPE PARAMETERS ===
+		// Generic type placeholders like <T> in List<T>
 		{
 			"name": "Type Parameters",
 			"scope": [
@@ -365,6 +457,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === ATTRIBUTES/ANNOTATIONS ===
+		// Things like [Serializable] above classes/methods
 		{
 			"name": "Attributes/Annotations",
 			"scope": [
@@ -376,6 +471,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === HTML ATTRIBUTES ===
+		// class="", id="", etc. in HTML
 		{
 			"name": "HTML Attributes",
 			"scope": [
@@ -387,6 +485,9 @@
 				"foreground": "#dca9dc"
 			}
 		},
+		
+		// === CSS CLASSES ===
+		// .my-class in CSS files
 		{
 			"name": "CSS Classes",
 			"scope": [
@@ -397,6 +498,9 @@
 				"fontStyle": "bold"
 			}
 		},
+		
+		// === CSS PROPERTIES ===
+		// color:, background:, margin:, etc. in CSS
 		{
 			"name": "CSS Properties",
 			"scope": [
@@ -406,6 +510,9 @@
 				"foreground": "#e4c16c"
 			}
 		},
+		
+		// === CSS VALUES ===
+		// red, 10px, center, etc. in CSS
 		{
 			"name": "CSS Values",
 			"scope": [
@@ -415,6 +522,9 @@
 				"foreground": "#fb9551"
 			}
 		},
+		
+		// === GIT DIFF - INSERTED ===
+		// Green lines in Git diffs (added content)
 		{
 			"name": "Markup - Inserted",
 			"scope": [
@@ -424,6 +534,9 @@
 				"foreground": "#99c794"
 			}
 		},
+		
+		// === GIT DIFF - DELETED ===
+		// Red lines in Git diffs (removed content)
 		{
 			"name": "Markup - Deleted",
 			"scope": [
@@ -433,6 +546,9 @@
 				"foreground": "#f36e77"
 			}
 		},
+		
+		// === GIT DIFF - CHANGED ===
+		// Modified lines in Git diffs
 		{
 			"name": "Markup - Changed",
 			"scope": [
@@ -442,6 +558,9 @@
 				"foreground": "#c792ea"
 			}
 		},
+		
+		// === REGULAR EXPRESSIONS ===
+		// Regex patterns like /[a-z]+/g
 		{
 			"name": "Regular Expressions",
 			"scope": [
@@ -451,6 +570,9 @@
 				"foreground": "#f36e77"
 			}
 		},
+		
+		// === JSON KEYS ===
+		// Property names in JSON files (the left side of "key": "value")
 		{
 			"name": "JSON Keys",
 			"scope": [
@@ -460,6 +582,9 @@
 				"foreground": "#dca9dc"
 			}
 		},
+		
+		// === MARKDOWN HEADINGS ===
+		// # ## ### etc. in Markdown files
 		{
 			"name": "Markdown Headings",
 			"scope": [
@@ -470,6 +595,9 @@
 				"fontStyle": "bold"
 			}
 		},
+		
+		// === MARKDOWN CODE ===
+		// `inline code` in Markdown
 		{
 			"name": "Markdown Code",
 			"scope": [
@@ -479,6 +607,9 @@
 				"foreground": "#c792ea"
 			}
 		},
+		
+		// === MARKDOWN BOLD ===
+		// **bold text** in Markdown
 		{
 			"name": "Markdown Bold",
 			"scope": [
@@ -489,6 +620,9 @@
 				"fontStyle": "bold"
 			}
 		},
+		
+		// === MARKDOWN ITALIC ===
+		// *italic text* in Markdown
 		{
 			"name": "Markdown Italic",
 			"scope": [
@@ -499,6 +633,9 @@
 				"fontStyle": "italic"
 			}
 		},
+		
+		// === MARKDOWN LINKS ===
+		// [link text](url) in Markdown
 		{
 			"name": "Markdown Links",
 			"scope": [

@@ -1,6 +1,11 @@
 # Change Log
 
+## [2025.09.10]
+
+- Improved comments in `space-kraken-color-theme.json` file for a complete understanding of color mapping throughout the theme
+
 ## [2025.08.30]
+
 - Adjusted text color for sidebars & accents from #607d8b to #6e8e9f (based on feedback)
 - Simplified the README file
 
