@@ -4,7 +4,7 @@
 
 **Unleash the cosmic tentacles of perfectly balanced syntax highlighting.**
 
-A dark theme that wraps your code in the depths of space with a comfortable palette of colors. Designed for developers who demand both aesthetic beauty and functional excellence.
+A dark theme that wraps your code in the depths of space with a comfortable palette of colors. Designed for developers who appreciate both aesthetic beauty and functional clarity.
 
 *(Space Kraken was created by an OLED screen user who doesn't always want to use 100% black backgrounds.)*
 
@@ -12,27 +12,23 @@ A dark theme that wraps your code in the depths of space with a comfortable pale
 
 ## 🚀 Features
 
-### 🌌 Cosmic Coding Experience
-Immerse yourself in a carefully crafted space environment where every color serves a purpose.
-Every token type has its color in the cosmic hierarchy - from stellar function calls to nebular comments.
-
-### 👁️ OLED Friendly  
-Deep space backgrounds (#112128) minimize OLED color contrast intensity as the semi-vibrant accents shine without being too overwhelming.
-
-### Cosmic Color Palette
-
 - Curated colors that glow without intense contrast
 - Intuitive file explorer and tab theming
 - Selection highlights that flow naturally through your code
+- It just looks good!
 
+
+### 🌌 Cosmic Coding Experience
+Immerse yourself in a carefully crafted space environment where every color serves a purpose. Every token type has its color in the *cosmic* hierarchy - from function calls to comments, all without overdoing the color palette or washing out in common colors.
+
+### 👁️ OLED Friendly  
+Deep space backgrounds **minimize OLED color contrast intensity** as the semi-vibrant accents shine without being too overwhelming.
 
 ### Language Support
 
-Perfect highlighting for all major languages including:
+Syntax highlighting for all major languages including:
 
-- **C#** · **JavaScript** · **TypeScript** · **Python** · **Java** · **Go** · **Rust**
-- **HTML** · **CSS** · **JSON** · **Markdown** · **YAML** · **XML**
-*and more...*
+- **C#** · **JavaScript** · **TypeScript** · **Python** · **Java** · **Go** · **Rust** · **HTML** · **CSS** · **JSON** · **Markdown** · **YAML** · **XML** *and more...*
 
 ---
 
@@ -90,8 +86,7 @@ Perfect highlighting for all major languages including:
 
 `#theme` `#dark-theme` `#vscode` `#oled` `#cosmic` `#space` `#kraken` `#syntax-highlighting` `#developer-tools` `#eye-strain` `#programming`
 
-
 ---
-**Made with 🦑 and cosmic dedication**
 
-*Embrace the void. Code with the Kraken.*
+Made with 🦑 and cosmic dedication by Channing Brown.
+*Embrace the void. Code with the Kraken!*
